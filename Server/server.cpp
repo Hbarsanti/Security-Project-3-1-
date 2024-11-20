@@ -1,5 +1,5 @@
 #include "server.h"
-
+#include <cstring>
 // Handles client communication
 void handleClient(int clientSocket) {
     EVP_CIPHER_CTX *ctx = EVP_CIPHER_CTX_new();

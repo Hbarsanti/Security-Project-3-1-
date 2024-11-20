@@ -1,0 +1,1 @@
+/usr/bin/c++ -Wl,--dependency-file,CMakeFiles/server_executable.dir/link.d CMakeFiles/server_executable.dir/server.cpp.o CMakeFiles/server_executable.dir/main.cpp.o CMakeFiles/server_executable.dir/__/Common/common.cpp.o -o server_executable  /usr/lib64/libssl.so /usr/lib64/libcrypto.so
